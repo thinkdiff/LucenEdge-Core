@@ -51,7 +51,7 @@ export default function OrbScene() {
 
       // Rings
       const ringColors = [0x00f5ff, 0x0066ff, 0x7c3aed]
-      const rings: THREE.Mesh[] = []
+      const rings: import('three').Mesh[] = []
       ringColors.forEach((color, i) => {
         const geo = new THREE.TorusGeometry(1.8 + i * 0.5, 0.005, 16, 100)
         const mat = new THREE.MeshBasicMaterial({ color, opacity: 0.4 - i * 0.1, transparent: true })

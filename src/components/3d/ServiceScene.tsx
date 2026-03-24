@@ -34,7 +34,7 @@ export default function ServiceScene({ color, visual }: Props) {
       mount.appendChild(renderer.domElement)
 
       const col = hexToColor(color)
-      const objects: THREE.Object3D[] = []
+      const objects: import('three').Object3D[] = []
 
       if (visual === 'claw') {
         // Mechanical claw - interlocked torus shapes
