@@ -1,0 +1,2 @@
+# LucenEdge-Core
+Web Platform
